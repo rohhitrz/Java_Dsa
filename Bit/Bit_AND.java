@@ -6,7 +6,7 @@ public class Bit_AND {
         int y=6;
         System.out.println(x&y);//2
 
-        //output we got as 2 becouse it performed and operation between binary rep of 3 and 6
+        //output we got as 2 becouse it performed "AND" operation between binary rep of 3 and 6
     }
 
 }
