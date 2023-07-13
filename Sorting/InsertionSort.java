@@ -1,3 +1,6 @@
+//Assume here that there are two parts:  sorted and  unsorted
+//Always keep first element as sorted
+//keep a variable j and compare  it to its previous element
 package Sorting;
 
 import java.util.Arrays;
