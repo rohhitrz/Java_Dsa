@@ -1,5 +1,5 @@
 package LinkedList;
-
+//to create a ll
 public class CreateLL {
     static class Node{
         int data;
