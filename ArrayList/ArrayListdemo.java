@@ -16,26 +16,20 @@ public class ArrayListdemo {
         System.out.println(list1.get(2));
 
         list1.add(1,50);
-
         System.out.println("Printing All the elements: ");
-
+        
         for (int i = 0; i <list1.size() ; i++) {
             System.out.print(" "+list1.get(i)+" ");
-
         }
         System.out.println();
 
         //use remove
+        
         list1.remove(1);
         System.out.println("Elements after removing the element at first Index: ");
         for (int i = 0; i <list1.size() ; i++) {
             System.out.print(" "+list1.get(i)+" ");
 
         }
-
-
-
-
-
-    }
+  }
 }
