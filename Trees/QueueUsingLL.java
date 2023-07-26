@@ -1,3 +1,4 @@
+
 package Trees;
 
 public class QueueUsingLL<T> {
@@ -19,9 +20,9 @@ public class QueueUsingLL<T> {
         return size == 0;
     }
 
-    T front(){
+    T front() throws QueueEmptyException{
         if(size == 0){
-            return null;
+            throw new QueueEmptyException();
         }
         return front.data;
     }
@@ -39,9 +40,9 @@ public class QueueUsingLL<T> {
 
     }
 
-    T dequeue()  {
+    T dequeue() throws QueueEmptyException{
         if(size == 0){
-           return null;
+            throw new QueueEmptyException();
         }
 
         T temp = front.data;
