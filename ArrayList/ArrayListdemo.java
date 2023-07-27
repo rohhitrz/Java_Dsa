@@ -23,7 +23,7 @@ public class ArrayListdemo {
         }
         System.out.println();
 
-        //use remove
+        //use Remove
         
         list1.remove(1);
         System.out.println("Elements after removing the element at first Index: ");
