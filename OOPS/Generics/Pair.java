@@ -1,5 +1,5 @@
 package OOPS.Generics;
-
+Generics are used when we dont want to tell the data type.
 public class Pair<T> {
     private T first;
     private T second;
