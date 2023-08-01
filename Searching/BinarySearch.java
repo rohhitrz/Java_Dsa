@@ -1,5 +1,7 @@
 package Searching;
 
+//O(log n).
+
 public class BinarySearch {
 
     static int BS(int arr[], int target){
