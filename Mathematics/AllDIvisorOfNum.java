@@ -1,5 +1,5 @@
 package Mathematics;
-
+// printing all divisors of a number
 public class AllDIvisorOfNum {
 
     public static void divisor(int num){
