@@ -1,4 +1,5 @@
 package Recursion;
+//return boolean
 
 public class CheckNumberInArray {
 
