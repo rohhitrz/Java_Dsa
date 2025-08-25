@@ -8,13 +8,11 @@ public class PairUse {
         p.setFirst(10);
         System.out.println(p.getFirst());
         System.out.println(p.getSecond());
-
-
+        
         Pair<String> P2=  new Pair<String>("ab","cd");
         System.out.println(P2.getFirst()+" "+ P2.getSecond());
         P2.setSecond("dc");
         System.out.println(P2.getSecond());
-
 
         Pair<Character> P3=new Pair<Character>('a','b');
         System.out.println(P3.getSecond());
@@ -27,7 +25,6 @@ public class PairUse {
         P4.setSecond(false);
         P4.setFirst(false);
         System.out.println(P4.getFirst() +" "+ P4.getSecond());
-
     }
 
 }
