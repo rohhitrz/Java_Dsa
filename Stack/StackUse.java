@@ -3,7 +3,6 @@ package Stack;
 public class StackUse {
     public static void main(String[] args) {
 
-
         StackUsingArray stack = new StackUsingArray();
         stack.push(10);
         stack.push(20);
@@ -15,8 +14,5 @@ public class StackUse {
         int res=stack.pop();
         System.out.println(res);
         System.out.println(stack.size());
-
-
-
     }
 }
